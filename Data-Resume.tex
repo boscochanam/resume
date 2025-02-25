@@ -1,0 +1,233 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-12pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]\vspace{3pt}}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape  Bosco Chanam} \\ \vspace{0pt}
+    \small +91 876-688-0662 $|$ \href{boscochanam@gmail.com}{\underline{boscochanam@gmail.com}}  $|$ 
+    \href{https://www.linkedin.com/in/boscochanam/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/boscochanam}{\underline{Github}} \vspace{5pt} $|$ 
+    \href{https://www.kaggle.com/boscochanam}{\underline{Kaggle}}
+\end{center}
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AI ML SDE Engineer}{Aug 2024 -- Present}
+      {Kalyani Group · Internship}{Pune, Maharashtra, India · On-site}
+      \resumeItemListStart
+        \resumeItem{Spearheading AI/ML initiatives at Bharat Forge, the World's Largest Forging Company, within a newly established AI/ML Incubation Centre.}
+        \resumeItem{Focused on Computer Vision applications, developing and deploying cutting-edge models using TensorFlow, PyTorch, and OpenCV.}
+        \resumeItem{Implementing end-to-end solutions, including model deployment via FastAPI and containerization with Docker, ensuring scalable and reliable performance.}
+        \resumeItem{Exploring and integrating Large Language Models (LLMs) to enhance existing systems and drive innovation in AI/ML capabilities.}
+        \resumeItem{Utilizing cloud services such as AWS for model training, deployment, and management.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Intern}{July 2023 -- Present}
+      {Symbiosis Centre for Applied Artificial Intelligence}{Pune}
+      \resumeItemListStart
+        \resumeItem{Engaged in advanced research in multi-task learning methodologies, specifically tailored for computer vision applications.}
+        \resumeItem{Developing state-of-the-art Computer Vision models for object detection in hand-drawn images, contributing to flagship projects.}
+        \resumeItem{Experimenting with various deep learning architectures and optimization techniques to improve model accuracy and efficiency.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Technical Co-Head}{July 2023 -- Present}
+      {CodeX SIT}{Pune}
+      \resumeItemListStart
+        \resumeItem{Directed and conducted technical seminars and hands-on workshops, educating junior members in key technologies such as Python, Machine Learning, and Full Stack Development.}
+        \resumeItem{Led technical initiatives and managed projects within the college club, fostering innovation and skill development.}
+        \resumeItem{Mentored and trained club members in Full Stack Development, Data Science, and AI/ML, enhancing their technical proficiency and project execution capabilities.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Symbiosis Institute of Technology}{Pune}
+      {Bachelor of Technology in Computer Science Engineering: 8 CGPA}{2021 - 2025}
+    \resumeSubheading
+      {The Orchid School}{Pune}
+      {CBSE XII: 87.2\% }{2019 -- 2021}
+    \resumeSubheading
+      {Global Indian International School}{Pune}
+      {CBSE X: 93.2\% }{2016 -- 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\href{https://github.com/boscochanam/gesture-interfacing}{\textbf{Hand Gesture Recognition and Computer Interfacing}} $|$ \emph{Python, OpenCV, TensorFlow, CNN}}{2024}
+\resumeItemListStart
+\resumeItem{Developed a hand gesture recognition system to interpret and interact with computer interfaces.}
+\resumeItem{Implemented computer vision techniques using OpenCV to capture and process hand gestures in real-time.}
+\resumeItem{Implemented volume control, based on pinching distance, scroll up, scroll down, hand tracking for cursor}
+\resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{\href{https://github.com/boscochanam/circuit-component-detection}{Circuit Component Detection}} $|$ \emph{YOLO, Tensorflow}}{2024}
+    \resumeItemListStart
+        \resumeItem{
+Integrated detection models into existing circuit analysis software for real-time component identification
+ }
+        \resumeItem{Successfully identified components along with spacial coordinates}
+        \resumeItem{Shipped data to frontend via fastAPI for interactive experience}
+    \resumeItemListEnd
+\resumeProjectHeading
+    {\href{https://github.com/boscochanam/facial-attribute-prediction}{\textbf{Facial Attribute Prediction}} $|$ \emph{Python, CNN, VGG, ResNet, Transfer Learning}}{2023}
+    \resumeItemListStart
+        \resumeItem{Developed a CNN Classifier for age, gender, and ethnicity prediction from facial images.}
+        \resumeItem{Achieved high accuracy using deep learning techniques, including VGG and ResNet architectures.}
+        \resumeItem{Leveraged Transfer Learning to improve prediction performance.}
+    \resumeItemListEnd
+
+
+
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript, HTML/CSS, MongoDB, SQL, TypeScript} \\
+     \textbf{Frameworks}{: ReactJS, Flask, Bootstrap, Express, Node} \\
+     \textbf{Libraries}{: Beautiful Soup, Hugging Face Transformers, VGG, ResNet, pandas, NumPy, Matplotlib, Seaborn} \\
+     \textbf{Other Technologies}{: AWS, MySQL, MongoDB, Git, Prisma}
+    }}
+\end{itemize}
+
+\section{Courses and Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=-4 pt]
+    \item Andrew Ng: Machine Learning Specialisation
+    \item Jose Portilla: Python for Data Science and Machine Learning Bootcamp
+    \item Jose Portilla: Probability and Statistics for Business and Data Science
+    \item Angela Yu: 100 Days of Code, Python
+\end{itemize}
+
+
+
+
+%-------------------------------------------
+\end{document}
